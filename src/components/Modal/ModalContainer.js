@@ -33,28 +33,27 @@ export const ModalConteiner = styled.div`
       flex-direction: row;
       width: 100%;
       padding: 2rem;
-      background-color: #343B41;
+      background-color: #343b41;
       border-radius: 0.5rem 0.5rem 0 0;
-      color: #FFFFFF;
+      color: #ffffff;
 
       p {
         color: white;
         width: 100%;
       }
 
-      .buttonClose{
-        color: #FFFFFF;
+      .buttonClose {
+        color: #ffffff;
       }
     }
 
     .divInputsModal {
       display: flex;
       flex-direction: column;
-     width: 100%;
+      width: 100%;
       height: 100%;
       gap: 3rem;
       padding: 2rem;
-
 
       input {
         width: 100%;
@@ -68,7 +67,7 @@ export const ModalConteiner = styled.div`
         height: 4.8rem;
         background-color: #ff577f;
         border-radius: 0.5rem;
-        color: #FFFFFF;
+        color: #ffffff;
       }
     }
   }

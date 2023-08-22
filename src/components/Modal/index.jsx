@@ -2,7 +2,6 @@ import { useContext, useEffect, useRef } from "react";
 import { UserContext } from "../providers/UserContext";
 import { ModalConteiner } from "./ModalContainer";
 import { FormNewTechnologie } from "./NewTechnologie";
-import { StyledContainer } from "../Styles/grid";
 
 export const Modal = () => {
   const { setIsOpen } = useContext(UserContext);
@@ -40,7 +39,11 @@ export const Modal = () => {
         <div className="divModal" ref={modalRef}>
           <header>
             <p>Cadastrar Tecnologia</p>
-            <button className="buttonClose" ref={buttonRef} onClick={() => setIsOpen(false)}>
+            <button
+              className="buttonClose"
+              ref={buttonRef}
+              onClick={() => setIsOpen(false)}
+            >
               X
             </button>
           </header>
