@@ -9,7 +9,7 @@ import { PublicRoutes } from "./PublicRoutes";
 export const RoutesMain = () => {
   return (
     <Routes>
-      <Route element={<PublicRoutes/>}>
+      <Route element={<PublicRoutes />}>
         <Route path="/" element={<HomePage />} />
         <Route path="/register" element={<RegisterPage />} />
       </Route>
